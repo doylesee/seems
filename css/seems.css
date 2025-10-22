@@ -1,0 +1,148 @@
+/* SEEMS v1.0 */
+/* Developed by Doyle See / doylesee.com */
+
+/* Quill styles START */
+/* 2. CRITICAL FIX: You MUST give the editor container a height. */
+#seems-section-editor,
+#seems-item-editor {
+    height: 250px; /* Adjust this value as needed for your layout */
+}
+
+.quill-editor-outer {
+    margin: 0 0 10px 0;
+}
+.quill-editor-outer .ql-toolbar.ql-snow .ql-formats {
+    margin-right: 10px;
+    vertical-align: top;
+}
+.quill-editor-outer .ql-editor p {
+    margin-bottom: 1em; /* Adjust this value to your preference */
+}
+/* Quill styles END */
+
+/* CMS Bar Styles START */
+.seems-logo {
+    display: inline-block;
+    margin: 20px 0;
+    position: relative;
+}
+.seems-logo span {
+    bottom: 0;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+#seems,
+#seems h1,
+#seems h2,
+#seems input,
+#seems select,
+#seems textarea {
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+}
+#seems {
+    background: rgba(250,250,250,0.9);
+    max-width: 400px;
+    min-height: 100%;
+    padding: 10px 20px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 20%;
+    z-index: 999999;
+}
+#seems section {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: 0.5s;
+}
+#seems section.active {
+    height: auto;
+    padding: 10px 0;
+}
+#seems h1,
+#seems h2 {
+    font-weight: 700;
+    margin: 0 0 5px 0;
+}
+#seems h1 {
+    font-size: 20px;
+}
+#seems h2 {
+    font-size: 16px;
+}
+#seems input,
+#seems select,
+#seems textarea {
+    border: 1px solid #999;
+    margin: 0 0 10px 0;
+    padding: 10px;
+}
+#seems textarea {
+    height: 80px;
+}
+#seems button {
+    margin: 0 0 10px 0;
+}
+#seems button.seems-button,
+.seems-in-edit button.seems-button {
+    background: #5fd45e;
+    color: #fff;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    padding: 5px 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+#seems button.seems-item-input {
+    background: transparent;
+    border: 1px solid #999;
+    color: #333;
+    height: 40px;
+    text-align: left;
+}
+#seems button.seems-button:hover,
+.seems-in-edit button.seems-button:hover,
+#seems button.seems-button:focus,
+.seems-in-edit button.seems-button:focus {
+    background: #333;
+    color: #fff;
+}
+.seems-page-section,
+.seems-page-item {
+    position: relative;
+}
+.seems-in-edit {
+    height: auto;
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+    top: 0;
+    width: 100%;
+}
+
+.seems-page-section .seems-in-edit .left-right,
+.seems-page-section .seems-page-item .seems-in-edit .up-down {
+    display: none;
+}
+.seems-page-section .seems-page-item .seems-in-edit .left-right {
+    display: inline;
+}
+/* CMS Bar Styles END */
