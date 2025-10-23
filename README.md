@@ -106,5 +106,5 @@ const layouts = {
 <h3>For RM-specific users</h3>
 <ul>
 	<li>Input <a href="https://github.com/doylesee/seems/blob/main/content-blocks/seems-ui.liquid" target="_blank">SEEMS UI</a> code into a <code>/seems-ui</code> Content Block</li>
-	<li>Reference <code>/seems-ui</code> in <code>pages.liquid</code> via inlcude (<code>{% include '/seems-ui' %}</code>)</li>
+	<li>Reference <code>/seems-ui</code> in <code>pages.liquid</code> via inlcude - <code>{% include '/seems-ui' %}</code></li>
 </ul>
