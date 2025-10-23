@@ -10,9 +10,13 @@
 
 <h2>SEEMS Reference</h2>
 <p>
-	Reference the SEEMS <a href="https://github.com/doylesee/seems/blob/main/css/seems.css" target="_blank">CSS</a> and <a href="https://github.com/doylesee/seems/blob/main/js/seems.js" target="_blank">JS</a> on to your page.<br />
+	Reference SEEMS on to your page.<br />
 	Ensure this is added after the jQuery and Quill references.
 </p>
+<ul>
+	<li><a href="https://github.com/doylesee/seems/blob/main/css/seems.css" target="_blank">seems.css</a></li>
+	<li><a href="https://github.com/doylesee/seems/blob/main/js/seems.js" target="_blank">seems.js</a></li>
+</ul>
 <pre><code>&lt;link href="css/seems.css" rel="stylesheet"&gt;&lt;/script&gt;
 &lt;script src="js/seems.js"&gt;&lt;/script&gt;</code></pre>
 
@@ -105,6 +109,6 @@ const layouts = {
 
 <h3>For RM-specific users</h3>
 <ul>
-	<li>Input <a href="https://github.com/doylesee/seems/blob/main/content-blocks/seems-ui.liquid" target="_blank">SEEMS UI</a> code into a <code>/seems-ui</code> Content Block</li>
+	<li>Input <a href="https://github.com/doylesee/seems/blob/main/content-blocks/seems-ui.liquid" target="_blank">seems-ui.liquid</a> code into a <code>/seems-ui</code> Content Block</li>
 	<li>Reference <code>/seems-ui</code> in <code>pages.liquid</code> via inlcude - <code>{% include '/seems-ui' %}</code></li>
 </ul>
