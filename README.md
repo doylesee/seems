@@ -45,7 +45,7 @@
 const LAYOUT_3_COLUMN_CTA = `
 &lt;section class="seems-page-section"&gt;
     &lt;div class="seems-copy-container"&gt;
-        &lt;p&gt;In skateparka et vert, the grinda is afoot. Manuals and nosegrinds, ollies and kickflips—each trick is a lexicon of the concrete. From the smooth transition of a bowl to the rough edge of a curb, the shredder carves their own story. The distant clatter of urethane on coping echoes through the park, a symphony of defiance and control. Heelflips and shuvits become the punctuation marks of a line, a fluid sentence written in motion. The griptape, coarse as a memory, holds fast to the board, a silent promise of connection between rider and wood. The pursuit is not of perfection, but of progression, the constant push against the limits of gravity and fear.&lt;/p&gt;
+        &lt;p&gt;In skateparka et vert, the grinda is afoot. Manuals and nosegrinds, ollies and kickflips—each trick is a lexicon of the concrete.&lt;/p&gt;
     &lt;/div&gt;
     &lt;div class="seems-item-container"&gt;
     &lt;/div&gt;
@@ -55,7 +55,7 @@ const LAYOUT_3_COLUMN_CTA_ITEMS = `
     &lt;a href="#" class="seems-url-container"&gt;
         &lt;img src="/img/sample-image.jpg" alt="" class="seems-image-container" /&gt;
         &lt;div class="seems-copy-container"&gt;
-            &lt;p&gt;In skateparka et vert, the grinda is afoot. Manuals and nosegrinds, ollies and kickflips—each trick is a lexicon of the concrete. From the smooth transition of a bowl to the rough edge of a curb, the shredder carves their own story. The distant clatter of urethane on coping echoes through the park, a symphony of defiance and control. Heelflips and shuvits become the punctuation marks of a line, a fluid sentence written in motion. The griptape, coarse as a memory, holds fast to the board, a silent promise of connection between rider and wood. The pursuit is not of perfection, but of progression, the constant push against the limits of gravity and fear.&lt;/p&gt;
+            &lt;p&gt;In skateparka et vert, the grinda is afoot. Manuals and nosegrinds, ollies and kickflips—each trick is a lexicon of the concrete.&lt;/p&gt;
         &lt;/div&gt;
     &lt;/a&gt;
 &lt;/div&gt;`;
@@ -63,7 +63,7 @@ const LAYOUT_CONTENT_WITH_BACKGROUND = `
 &lt;section class="seems-page-section"&gt;
     &lt;div class="seems-image-container" style="background-image: url('../img/sample-image.jpg');"&gt;
         &lt;div class="seems-copy-container"&gt;
-            &lt;p&gt;In skateparka et vert, the grinda is afoot. Manuals and nosegrinds, ollies and kickflips—each trick is a lexicon of the concrete. From the smooth transition of a bowl to the rough edge of a curb, the shredder carves their own story. The distant clatter of urethane on coping echoes through the park, a symphony of defiance and control. Heelflips and shuvits become the punctuation marks of a line, a fluid sentence written in motion. The griptape, coarse as a memory, holds fast to the board, a silent promise of connection between rider and wood. The pursuit is not of perfection, but of progression, the constant push against the limits of gravity and fear.&lt;/p&gt;
+            &lt;p&gt;In skateparka et vert, the grinda is afoot. Manuals and nosegrinds, ollies and kickflips—each trick is a lexicon of the concrete.&lt;/p&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;`;
