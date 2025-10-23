@@ -1,13 +1,15 @@
-**layouts/default** quill css + js
-**layouts/default** seems css + js
-**theme.js** // for SEEMS
-Create Content Blocks for Layouts
-**content-blocks** .seems-page-section
-**content-blocks** .seems-page-item
-**content-blocks** .seems-item-container
-**content-blocks** .seems-url-container
-**content-blocks** .seems-image-container
-**content-blocks** .seems-copy-container
-/seems-layout-list
-/seems-ui
-**pages** {% include '/seems-ui' %}
+<ul>
+  <li><strong>layouts/default</strong> quill css + js</li>
+  <li><strong>layouts/default</strong> seems css + js</li>
+  <li><strong>theme.js</strong> // for SEEMS</li>
+  <li>Create Content Blocks for Layouts</li>
+  <li><strong>content-blocks</strong> .seems-page-section</li>
+  <li><strong>content-blocks</strong> .seems-page-item</li>
+  <li><strong>content-blocks</strong> .seems-item-container</li>
+  <li><strong>content-blocks</strong> .seems-url-container</li>
+  <li><strong>content-blocks</strong> .seems-image-container</li>
+  <li><strong>content-blocks</strong> .seems-copy-container</li>
+  <li>/seems-layout-list</li>
+  <li>/seems-ui</li>
+  <li><strong>pages</strong> {% include '/seems-ui' %}</li>
+</ul>
