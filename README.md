@@ -36,13 +36,30 @@
 	Ideally, this is how it would look like:
 </p>
 
-<pre><code>const LAYOUT_2-COLUMN_MEDIA_LEFT = `
-&lt;section class="seems-page-section"&gt;
-	&lt;img src="/img/sample-image.jpg" alt="" class="seems-image-container" /&gt;
-	&lt;div class="seems-copy-container"&gt;
-		&lt;p&gt;In skateparka et vert, the grinda is afoot. Manuals and nosegrinds, ollies and kickflips—each trick is a lexicon of the concrete. From the smooth transition of a bowl to the rough edge of a curb, the shredder carves their own story. The distant clatter of urethane on coping echoes through the park, a symphony of defiance and control. Heelflips and shuvits become the punctuation marks of a line, a fluid sentence written in motion. The griptape, coarse as a memory, holds fast to the board, a silent promise of connection between rider and wood. The pursuit is not of perfection, but of progression, the constant push against the limits of gravity and fear.&lt;/p&gt;
-	&lt;/div&gt;
+<pre><code>// Layout constants
+const LAYOUT_3_COLUMN_CTA = `
+&lt;section class="seems-page-section layout-3-column-cta"&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="column"&gt;
+            &lt;div class="seems-copy-container"&gt;
+                &lt;p&gt;In skateparka et vert, the grinda is afoot. Manuals and nosegrinds, ollies and kickflips—each trick is a lexicon of the concrete. From the smooth transition of a bowl to the rough edge of a curb, the shredder carves their own story. The distant clatter of urethane on coping echoes through the park, a symphony of defiance and control. Heelflips and shuvits become the punctuation marks of a line, a fluid sentence written in motion. The griptape, coarse as a memory, holds fast to the board, a silent promise of connection between rider and wood. The pursuit is not of perfection, but of progression, the constant push against the limits of gravity and fear.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="seems-item-container"&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
 &lt;/section&gt;`;
+const LAYOUT_3_COLUMN_CTA_ITEMS = `
+&lt;div class="seems-page-item columns medium-6 large-4 end" style="margin: 0 0 20px 0;"&gt;
+    &lt;a href="#" class="seems-url-container"&gt;
+        &lt;div style="margin: 0 0 10px 0;"&gt;&lt;img src="https://images.unsplash.com/photo-1464925257126-6450e871c667?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="seems-image-container" /&gt;&lt;/div&gt;
+        &lt;div class="seems-copy-container"&gt;
+            &lt;p&gt;In skateparka et vert, the grinda is afoot. Manuals and nosegrinds, ollies and kickflips—each trick is a lexicon of the concrete. From the smooth transition of a bowl to the rough edge of a curb, the shredder carves their own story. The distant clatter of urethane on coping echoes through the park, a symphony of defiance and control. Heelflips and shuvits become the punctuation marks of a line, a fluid sentence written in motion. The griptape, coarse as a memory, holds fast to the board, a silent promise of connection between rider and wood. The pursuit is not of perfection, but of progression, the constant push against the limits of gravity and fear.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/a&gt;
+&lt;/div&gt;`;
 const LAYOUT_CONTENT_WITH_BACKGROUND = `
 &lt;section class="seems-page-section"&gt;
     &lt;div class="seems-image-container" style="background-image: url('../img/sample-image.jpg');"&gt;
@@ -50,15 +67,25 @@ const LAYOUT_CONTENT_WITH_BACKGROUND = `
             &lt;p&gt;In skateparka et vert, the grinda is afoot. Manuals and nosegrinds, ollies and kickflips—each trick is a lexicon of the concrete. From the smooth transition of a bowl to the rough edge of a curb, the shredder carves their own story. The distant clatter of urethane on coping echoes through the park, a symphony of defiance and control. Heelflips and shuvits become the punctuation marks of a line, a fluid sentence written in motion. The griptape, coarse as a memory, holds fast to the board, a silent promise of connection between rider and wood. The pursuit is not of perfection, but of progression, the constant push against the limits of gravity and fear.&lt;/p&gt;
         &lt;/div&gt;
     &lt;/div&gt;
-&lt;/section&gt;`;</code></pre>
+&lt;/section&gt;`;
+
+// Create an object to map option values to the variables
+const layouts = {
+    'layout-3-column-cta': {
+        component: LAYOUT_3_COLUMN_CTA,
+        component_items: LAYOUT_3_COLUMN_CTA_ITEMS,
+        component_items_count: 3
+    },
+    'layout-content-with-background': LAYOUT_CONTENT_WITH_BACKGROUND
+};</code></pre>
 
 <h3>For RM-specific users</h3>
 <ul>
 	<li>
 		<strong>Build a Content Block for each layout</strong><br />
 		<p>
-			<code>/layout-content-with-background  </code><br />
-			<code>/layout-2-column-media-left      </code>
+			<code>/layout-content-with-background</code><br />
+			<code>/layout-2-column-media-left</code>
 		</p>
 	</li>
 	<li>
@@ -66,7 +93,7 @@ const LAYOUT_CONTENT_WITH_BACKGROUND = `
 		<p>This Content Blocks lists all of these layouts and its attributes following this format, <strong>separated by a semi-colon</strong>, and <strong>no semi-colon on the last item</strong>:</p>
 		<p><code>Layout Content Block Name,Layout Label,Layout Item Content Block Name,Layout Item Column Number</code></p>
 		<p>eg.:</p>
-		<p><code>layout-content-with-background,Content with Background,,;layout-2-column-media-left,2-Column Media Left,,;layout-3-column-cta,3-Column CTA,layout-3-column-cta-items,3</code></p>
+		<p><code>layout-3-column-cta,3-Column CTA,layout-3-column-cta-items,3;layout-content-with-background,Content with Background,,</code></p>
 	</li>
 	<li><strong>Add <a href="https://github.com/doylesee/seems/blob/main/js/theme.js" target="_blank">this code</a> to your <code>theme.js</code></strong></li>
 </ul>
