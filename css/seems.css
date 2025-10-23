@@ -64,6 +64,10 @@
     margin: 20px 0;
     position: relative;
 }
+#seems .seems-logo:hover,
+#seems .seems-logo:focus {
+    opacity: 0.7;
+}
 #seems .seems-logo span {
     bottom: 0;
     font-family: Arial,sans-serif;
