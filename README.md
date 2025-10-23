@@ -100,7 +100,7 @@ const layouts = {
 <!-- ***** -->
 
 <h2>SEEMS UI</h2>
-<p>Include the <a href="https://github.com/doylesee/seems/blob/main/content-blocks/seems-ui.liquid" target="_blank">SEEMS UI</a> code into your intended Page Builder page.</p>
+<p>Include the <a href="https://github.com/doylesee/seems/blob/main/content-blocks/seems-ui.html" target="_blank">SEEMS UI</a> code into your intended Page Builder page.</p>
 
 <h3>For RM-specific users</h3>
 <ul>
