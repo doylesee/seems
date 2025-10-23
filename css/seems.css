@@ -57,6 +57,7 @@
     height: 100px;
     min-height: 0;
     overflow: hidden;
+    width: 200px;
 }
 #seems .seems-logo {
     display: inline-block;
