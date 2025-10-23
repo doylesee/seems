@@ -47,7 +47,6 @@ const LAYOUT_3_COLUMN_CTA = `
     &lt;div class="seems-copy-container"&gt;
         &lt;p&gt;In skateparka et vert, the grinda is afoot. Manuals and nosegrinds, ollies and kickflips—each trick is a lexicon of the concrete. From the smooth transition of a bowl to the rough edge of a curb, the shredder carves their own story. The distant clatter of urethane on coping echoes through the park, a symphony of defiance and control. Heelflips and shuvits become the punctuation marks of a line, a fluid sentence written in motion. The griptape, coarse as a memory, holds fast to the board, a silent promise of connection between rider and wood. The pursuit is not of perfection, but of progression, the constant push against the limits of gravity and fear.&lt;/p&gt;
     &lt;/div&gt;
-
     &lt;div class="seems-item-container"&gt;
     &lt;/div&gt;
 &lt;/section&gt;`;
