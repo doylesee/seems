@@ -1,3 +1,7 @@
+<h1>SEEMS</h1>
+<p>This is a simple page builder tool designed to help you create custom pages within an older, limited CMS user interface.</p>
+<p>Developed by Doyle See / <a href="https://doylesee.com">doylesee.com</a>.</p>
+
 <h2>Pre-requisites</h2>
 <p>Reference jQuery and Quill on to your page.</p>
 <ul>
