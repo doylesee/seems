@@ -2,7 +2,7 @@
 <p>This is a simple page builder tool designed to help you create custom pages within an older, limited CMS user interface.</p>
 <p>Developed by Doyle See / <a href="https://doylesee.com">doylesee.com</a>.</p>
 
-<h2>Pre-requisites</h2>
+<h2>1. Pre-requisites</h2>
 <p>Reference jQuery and Quill on to your page.</p>
 <ul>
 	<li><a href="https://jquery.com/download/" target="_blank">jQuery</a></li>
@@ -12,7 +12,11 @@
 <pre><code>&lt;link href="css/quill.snow.css" rel="stylesheet"&gt;&lt;/script&gt;
 &lt;script src="js/quill.js"&gt;&lt;/script&gt;</code></pre>
 
-<h2>SEEMS Reference</h2>
+<br />
+<br />
+<!-- ***** -->
+
+<h2>2. SEEMS Reference</h2>
 <p>
 	Reference SEEMS on to your page.<br />
 	Ensure this is added after the jQuery and Quill references.
@@ -24,9 +28,11 @@
 <pre><code>&lt;link href="css/seems.css" rel="stylesheet"&gt;&lt;/script&gt;
 &lt;script src="js/seems.js"&gt;&lt;/script&gt;</code></pre>
 
+<br />
+<br />
 <!-- ***** -->
 
-<h2>Build your HTML Layouts via JS</h2>
+<h2>3. Build your HTML Layouts via JS</h2>
 <p>Ensure that the following classes are referenced in the HTML code:</p>
 <p>Please ensure the following classes are correctly referenced in the HTML code:</p>
 <ul>
@@ -101,9 +107,11 @@ const layouts = {
 	<li><strong>Add <a href="https://github.com/doylesee/seems/blob/main/js/theme.js" target="_blank">this code</a> to your <code>theme.js</code></strong></li>
 </ul>
 
+<br />
+<br />
 <!-- ***** -->
 
-<h2>SEEMS UI</h2>
+<h2>4. SEEMS UI</h2>
 <p>
 	Include the <a href="https://github.com/doylesee/seems/blob/main/content-blocks/seems-ui.html" target="_blank">SEEMS UI</a> code into your intended Page Builder page.<br />
 	Update the select options with values from the <code>layouts</code> variable in your JS.
