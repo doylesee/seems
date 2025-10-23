@@ -1,6 +1,7 @@
 <h1>SEEMS</h1>
 <p>This is a simple page builder tool designed to help you create custom pages within an older, limited CMS user interface.</p>
 <p>Developed by Doyle See / <a href="https://doylesee.com">doylesee.com</a>.</p>
+<br />
 
 <h2>1. Pre-requisites</h2>
 <p>Reference jQuery and Quill on to your page.</p>
@@ -12,7 +13,6 @@
 <pre><code>&lt;link href="css/quill.snow.css" rel="stylesheet"&gt;&lt;/script&gt;
 &lt;script src="js/quill.js"&gt;&lt;/script&gt;</code></pre>
 
-<br />
 <br />
 <!-- ***** -->
 
@@ -28,7 +28,6 @@
 <pre><code>&lt;link href="css/seems.css" rel="stylesheet"&gt;&lt;/script&gt;
 &lt;script src="js/seems.js"&gt;&lt;/script&gt;</code></pre>
 
-<br />
 <br />
 <!-- ***** -->
 
@@ -107,7 +106,6 @@ const layouts = {
 	<li><strong>Add <a href="https://github.com/doylesee/seems/blob/main/js/theme.js" target="_blank">this code</a> to your <code>theme.js</code></strong></li>
 </ul>
 
-<br />
 <br />
 <!-- ***** -->
 
