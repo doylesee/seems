@@ -31,7 +31,7 @@
 	<li><code>seems-page-item</code>: for the element wrapping a single featured item</li>
 </ul>
 <ul>
-	<li><code>seems-url-container</code>: for the <code>&lt;A /&gt;</code> element of the link</li>
+	<li><code>seems-url-container</code>: for the <code>&lt;A&gt;</code> element of the link</li>
 	<li><code>seems-image-container</code>: for the image element</li>
 	<li><code>seems-copy-container</code>: for the element wrapping the copy text</li>
 </ul>
