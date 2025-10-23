@@ -24,19 +24,20 @@
 
 <h2>Build your HTML Layouts via JS</h2>
 <p>Ensure that the following classes are referenced in the HTML code:</p>
+<p>Please ensure the following classes are correctly referenced in the HTML code:</p>
 <ul>
-	<li><strong>seems-page-section</strong>: the element wrapping the entire layout</li>
-	<li><strong>seems-item-container</strong>: the element wrapping the entire list of featured items</li>
-	<li><strong>seems-page-item</strong>: the element wrapping a featured item</li>
+	<li><code>seems-page-section</code>: for the element wrapping the entire layout</li>
+	<li><code>seems-item-container</code>: for the element wrapping the entire list of featured items</li>
+	<li><code>seems-page-item</code>: for the element wrapping a single featured item</li>
 </ul>
 <ul>
-	<li><strong>seems-url-container</strong>: the <code>&lt;A /&gt;</code> element for the link</li>
-	<li><strong>seems-image-container</strong>: the element for the image</li>
-	<li><strong>seems-copy-container</strong>: the element wrapping the copy</li>
+	<li><code>seems-url-container</code>: for the <code>&lt;A /&gt;</code> element of the link</li>
+	<li><code>seems-image-container</code>: for the image element</li>
+	<li><code>seems-copy-container</code>: for the element wrapping the copy text</li>
 </ul>
 
 <p>
-	Ensure this JS is declared before seems.js<br />
+	Ensure this JS is declared before <code>seems.js</code><br />
 	Ideally, this is how it would look like:
 </p>
 
