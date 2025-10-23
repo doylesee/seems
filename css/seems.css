@@ -21,20 +21,8 @@
 /* Quill styles END */
 
 /* CMS Bar Styles START */
-.seems-logo {
-    display: inline-block;
-    margin: 20px 0;
-    position: relative;
-}
-.seems-logo span {
-    bottom: 0;
-    font-family: Arial,sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    left: 0;
-    position: absolute;
-    text-align: center;
-    width: 100%;
+.hide {
+    display: none;
 }
 #seems,
 #seems h1,
@@ -63,6 +51,32 @@
     top: 0;
     width: 20%;
     z-index: 999999;
+}
+#seems.inactive {
+    background: transparent;
+    height: 100px;
+    min-height: 0;
+    overflow: hidden;
+}
+#seems .seems-logo {
+    display: inline-block;
+    margin: 20px 0;
+    position: relative;
+}
+#seems .seems-logo span {
+    bottom: 0;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+#seems .seems-close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
 #seems section {
     height: 0;
@@ -127,15 +141,15 @@
     position: relative;
 }
 .seems-in-edit {
-    height: auto;
-    height: 100%;
-    left: 0;
-    opacity: 1;
-    padding: 10px;
-    position: absolute;
-    text-align: left;
-    top: 0;
-    width: 100%;
+    height: 100% !important;
+    left: 0 !important;
+    opacity: 1 !important;
+    padding: 10px !important;
+    position: absolute !important;
+    text-align: left !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 999999 !important;
 }
 
 .seems-page-section .seems-in-edit .left-right,
