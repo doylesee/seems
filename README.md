@@ -32,7 +32,6 @@
 <!-- ***** -->
 
 <h2>3. Build your HTML Layouts via JS</h2>
-<p>Ensure that the following classes are referenced in the HTML code:</p>
 <p>Please ensure the following classes are correctly referenced in the HTML code:</p>
 <ul>
 	<li><code>seems-page-section</code>: for the element wrapping the entire layout</li>
@@ -45,10 +44,7 @@
 	<li><code>seems-copy-container</code>: for the element wrapping the copy text</li>
 </ul>
 
-<p>
-	Ensure this JS is declared before <code>seems.js</code><br />
-	Ideally, this is how it would look like:
-</p>
+<p>Ensure this JS is declared before <code>seems.js</code>. Ideally, this is how it would look like:</p>
 
 <pre><code>// Layout constants
 const LAYOUT_3_COLUMN_CTA = `
@@ -98,8 +94,11 @@ const layouts = {
 	</li>
 	<li>
 		<strong>Build the <code>/seems-layout-list</code> Content Block</strong><br />
-		<p>This Content Blocks lists all of these layouts and its attributes following this format, <strong>separated by a semi-colon</strong>, and <strong>no semi-colon on the last item</strong>:</p>
-		<p><code>Layout Content Block Name,Layout Label,Layout Item Content Block Name,Layout Item Column Number</code></p>
+		<p>This Content Block will have a list all of these layouts and its attributes following this format:</p>
+		<ul>
+			<li><code>Layout Content Block Name,Layout Label,Layout Item Content Block Name,Layout Item Column Number</code></li>
+			<li>Each layout separated by a semi-colon, but no trailing semi-colon on the last item</li>
+		</ul>
 		<p>eg.:</p>
 		<p><code>layout-3-column-cta,3-Column CTA,layout-3-column-cta-items,3;layout-content-with-background,Content with Background,,</code></p>
 	</li>
