@@ -50,7 +50,7 @@
 const LAYOUT_3_COLUMN_CTA = `
 &lt;section class="seems-page-section"&gt;
     &lt;div class="seems-copy-container"&gt;
-        &lt;p&gt;In skateparka et vert, the grinda is afoot. Manuals and nosegrinds, ollies and kickflips—each trick is a lexicon of the concrete.&lt;/p&gt;
+        &lt;p&gt;In skateparka et vert, the grinda is afoot.&lt;/p&gt;
     &lt;/div&gt;
     &lt;div class="seems-item-container"&gt;
     &lt;/div&gt;
@@ -60,7 +60,7 @@ const LAYOUT_3_COLUMN_CTA_ITEMS = `
     &lt;a href="#" class="seems-url-container"&gt;
         &lt;img src="/img/sample-image.jpg" alt="" class="seems-image-container" /&gt;
         &lt;div class="seems-copy-container"&gt;
-            &lt;p&gt;In skateparka et vert, the grinda is afoot. Manuals and nosegrinds, ollies and kickflips—each trick is a lexicon of the concrete.&lt;/p&gt;
+            &lt;p&gt;In skateparka et vert, the grinda is afoot.&lt;/p&gt;
         &lt;/div&gt;
     &lt;/a&gt;
 &lt;/div&gt;`;
@@ -68,7 +68,7 @@ const LAYOUT_CONTENT_WITH_BACKGROUND = `
 &lt;section class="seems-page-section"&gt;
     &lt;div class="seems-image-container" style="background-image: url('../img/sample-image.jpg');"&gt;
         &lt;div class="seems-copy-container"&gt;
-            &lt;p&gt;In skateparka et vert, the grinda is afoot. Manuals and nosegrinds, ollies and kickflips—each trick is a lexicon of the concrete.&lt;/p&gt;
+            &lt;p&gt;In skateparka et vert, the grinda is afoot.&lt;/p&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;`;
