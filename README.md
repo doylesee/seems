@@ -110,7 +110,7 @@ const layouts = {
 
 <h2>4. SEEMS UI</h2>
 <p>
-	Include the <a href="https://github.com/doylesee/seems/blob/main/content-blocks/seems-ui.html" target="_blank">SEEMS UI</a> code into your intended Page Builder page.<br />
+	Include the <a href="https://github.com/doylesee/seems/blob/main/seems-ui.html" target="_blank">SEEMS UI</a> code into your intended Page Builder page.<br />
 	Update the select options with values from the <code>layouts</code> variable in your JS.
 </p>
 
