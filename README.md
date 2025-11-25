@@ -23,7 +23,7 @@
 </p>
 <ul>
 	<li><a href="https://github.com/doylesee/seems/blob/main/css/seems.css" target="_blank">seems.css</a></li>
-	<li><a href="https://github.com/doylesee/seems/blob/main/js/seems.js" target="_blank">seems.js</a></li>
+	<li><a href="https://github.com/doylesee/seems/blob/main/js/seems.min.js" target="_blank">seems.min.js</a></li>
 </ul>
 <pre><code>&lt;link href="css/seems.css" rel="stylesheet"&gt;&lt;/script&gt;
 &lt;script src="js/seems.js"&gt;&lt;/script&gt;</code></pre>
