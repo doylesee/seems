@@ -19,7 +19,7 @@
 <h2>2. SEEMS Reference</h2>
 <p>
 	Reference SEEMS on to your page.<br />
-	Ensure this is added after the jQuery and Quill references.
+	Ensure this is declared after jQuery and Quill.
 </p>
 <ul>
 	<li><a href="https://github.com/doylesee/seems/blob/main/css/seems.css" target="_blank">seems.css</a></li>
@@ -33,16 +33,40 @@
 
 <h2>3. Build your HTML Layouts via JS</h2>
 <p>Please ensure the following classes are correctly referenced in the HTML code:</p>
-<ul>
-	<li><code>seems-page-section</code>: for the element wrapping the entire layout</li>
-	<li><code>seems-item-container</code>: for the element wrapping the entire list of featured items</li>
-	<li><code>seems-page-item</code>: for the element wrapping a single featured item</li>
-</ul>
-<ul>
-	<li><code>seems-url-container</code>: for the <code>&lt;A&gt;</code> element of the link</li>
-	<li><code>seems-image-container</code>: for the image element</li>
-	<li><code>seems-copy-container</code>: for the element wrapping the copy text</li>
-</ul>
+<table>
+	<thead>
+		<tr>
+			<th><strong>Class Name</strong></th>
+			<th><strong>Description</strong></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><code>seems-page-section</code></td>
+			<td>for the element wrapping the entire layout</td>
+		</tr>
+		<tr>
+			<td><code>seems-item-container</code></td>
+			<td>for the element wrapping the entire list of featured items</td>
+		</tr>
+		<tr>
+			<td><code>seems-page-item</code></td>
+			<td>for the element wrapping a single featured item</td>
+		</tr>
+		<tr>
+			<td><code>seems-url-container</code></td>
+			<td>for the <code>&lt;A&gt;</code> element of the link</td>
+		</tr>
+		<tr>
+			<td><code>seems-image-container</code></td>
+			<td>for the image element</td>
+		</tr>
+		<tr>
+			<td><code>seems-copy-container</code></td>
+			<td>for the element wrapping the copy text</td>
+		</tr>
+	</tbody>
+</table>
 
 <p>Ensure this JS is declared before <code>seems.js</code>. Ideally, this is how it would look like:</p>
 
@@ -83,28 +107,6 @@ const layouts = {
     'layout-content-with-background': LAYOUT_CONTENT_WITH_BACKGROUND
 };</code></pre>
 
-<h3>For RM-specific users</h3>
-<ul>
-	<li>
-		<strong>Build a Content Block for each layout</strong><br />
-		<p>
-			<code>/layout-content-with-background</code><br />
-			<code>/layout-2-column-media-left</code>
-		</p>
-	</li>
-	<li>
-		<strong>Build the <code>/seems-layout-list</code> Content Block</strong><br />
-		<p>This Content Block will have a list all of these layouts and its attributes following this format:</p>
-		<ul>
-			<li><code>Layout Content Block Name,Layout Label,Layout Item Content Block Name,Layout Item Column Number</code></li>
-			<li>Each layout separated by a semi-colon, but no trailing semi-colon on the last item</li>
-		</ul>
-		<p>eg.:</p>
-		<p><code>layout-3-column-cta,3-Column CTA,layout-3-column-cta-items,3;layout-content-with-background,Content with Background,,</code></p>
-	</li>
-	<li><strong>Add <a href="https://github.com/doylesee/seems/blob/main/js/theme.js" target="_blank">this code</a> to your <code>theme.js</code></strong></li>
-</ul>
-
 <br />
 <!-- ***** -->
 
@@ -113,9 +115,3 @@ const layouts = {
 	Include the <a href="https://github.com/doylesee/seems/blob/main/seems-ui.html" target="_blank">SEEMS UI</a> code into your intended Page Builder page.<br />
 	Update the select options with values from the <code>layouts</code> variable in your JS.
 </p>
-
-<h3>For RM-specific users</h3>
-<ul>
-	<li>Input <a href="https://github.com/doylesee/seems/blob/main/content-blocks/seems-ui.liquid" target="_blank">seems-ui.liquid</a> code into a <code>/seems-ui</code> Content Block</li>
-	<li>Reference <code>/seems-ui</code> in <code>pages.liquid</code> via include - <code>{% include '/seems-ui' %}</code></li>
-</ul>
