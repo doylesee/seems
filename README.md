@@ -68,7 +68,7 @@
 	</tbody>
 </table>
 
-<p>Ensure this JS is declared before <code>seems.js</code>. Ideally, this is how it would look like:</p>
+<p>Ensure these JS variable scripts are declared before <code>seems.js</code>. Ideally, this is how it would look like:</p>
 
 <pre><code>// Layout constants
 const LAYOUT_3_COLUMN_CTA = `
