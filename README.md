@@ -2,8 +2,7 @@
 This is a simple page builder tool designed to help you create custom pages within an older, limited CMS user interface.
 
 ## The Problem & Use Case
-When building sites for non-technical stakeholders, content managers are often forced to work inside a standard, restrictive WYSIWYG editor like this:
-
+When building sites for clients where their content managers are often forced to work inside a standard, restrictive WYSIWYG editor like this:
 ![The WYSIWYG Editor Limitation](.readme-assets/this-wysiwyg-sucks.jpg)
 
 While a legacy text editor is perfectly fine for basic paragraphs and headings, it completely breaks down when trying to build modern web experiences. Non-technical users cannot easily create advanced, multi-column sections, custom call-to-action grids, or modern background layouts without knowing how to write complex HTML and CSS code.
