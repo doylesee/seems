@@ -22,11 +22,11 @@ Reference jQuery and Quill on to your page.
 - <a href="https://quilljs.com/docs/installation" target="_blank">Quill</a>
 
 ```html
-<script src="seems/js/jquery.js"></script>
+<script src="js/jquery.js"></script>
 ```
 ```html
-<link href="seems/css/quill.snow.css" rel="stylesheet" />
-<script src="seems/js/quill.js"></script>
+<link href="css/quill.snow.css" rel="stylesheet" />
+<script src="js/quill.js"></script>
 ```
 
 <br />
@@ -37,8 +37,8 @@ Reference SEEMS on to your page. Ensure this is declared after jQuery and Quill.
 * [seems.min.js](seems/js/seems.min.js)
 
 ```html
-<link href="seems/css/seems.css" rel="stylesheet" />
-<script src="seems/js/seems.js"></script>
+<link href="css/seems.css" rel="stylesheet" />
+<script src="js/seems.js"></script>
 ```
 
 <br />
@@ -102,5 +102,3 @@ const layouts = {
 ### 4. SEEMS UI
 Include the [SEEMS UI](seems/seems-ui.html) code into your intended Page Builder page.<br />
 Update the select options with values from the <code>layouts</code> variable in your JS.
-
-
