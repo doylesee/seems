@@ -9,7 +9,7 @@
 	<li><a href="https://quilljs.com/docs/installation" target="_blank">Quill</a></li>
 </ul>
 <pre><code>&lt;script src="js/jquery.js"&gt;&lt;/script&gt;</code></pre>
-<pre><code>&lt;link href="css/quill.snow.css" rel="stylesheet"&gt;&lt;/script&gt;
+<pre><code>&lt;link href="css/quill.snow.css" rel="stylesheet" /&gt;
 &lt;script src="js/quill.js"&gt;&lt;/script&gt;</code></pre>
 
 <br />
@@ -24,7 +24,7 @@
 	<li><a href="https://github.com/doylesee/seems/blob/main/css/seems.css" target="_blank">seems.css</a></li>
 	<li><a href="https://github.com/doylesee/seems/blob/main/js/seems.min.js" target="_blank">seems.min.js</a></li>
 </ul>
-<pre><code>&lt;link href="css/seems.css" rel="stylesheet"&gt;&lt;/script&gt;
+<pre><code>&lt;link href="css/seems.css" rel="stylesheet" /&gt;
 &lt;script src="js/seems.js"&gt;&lt;/script&gt;</code></pre>
 
 <br />
