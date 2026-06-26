@@ -7,14 +7,16 @@ When building sites for clients where their content managers are often forced to
 
 While a legacy text editor is perfectly fine for basic paragraphs and headings, it completely breaks down when trying to build modern web experiences. Non-technical users cannot easily create advanced, multi-column sections, custom call-to-action grids, or modern background layouts without knowing how to write complex HTML and CSS code.
 
+<br />
+
 ## The Solution
 SEEMS bridges this gap. It provides a simple, structured UI abstraction layer that sits inside the existing environment. Content managers can cleanly select pre-defined modern component layouts without touching code, while developers maintain total control over the output structural integrity and design.
 
 <br />
 
-# Usage
+## Usage
 
-## 1. Pre-requisites
+### 1. Pre-requisites
 Reference jQuery and Quill on to your page.
 - <a href="https://jquery.com/download/" target="_blank">jQuery</a>
 - <a href="https://quilljs.com/docs/installation" target="_blank">Quill</a>
@@ -29,7 +31,7 @@ Reference jQuery and Quill on to your page.
 
 <br />
 
-## 2. SEEMS Reference
+### 2. SEEMS Reference
 Reference SEEMS on to your page. Ensure this is declared after jQuery and Quill.
 * [seems.css](seems/css/seems.css)
 * [seems.min.js](seems/js/seems.min.js)
@@ -41,7 +43,7 @@ Reference SEEMS on to your page. Ensure this is declared after jQuery and Quill.
 
 <br />
 
-## 3. Build your HTML Layouts via JS
+### 3. Build your HTML Layouts via JS
 Please ensure the following classes are correctly referenced in the HTML code:
 | Class Name | Description |
 | :--- | :--- |
@@ -97,7 +99,7 @@ const layouts = {
 
 <br />
 
-## 4. SEEMS UI
+### 4. SEEMS UI
 Include the [SEEMS UI](seems/seems-ui.html) code into your intended Page Builder page.<br />
 Update the select options with values from the <code>layouts</code> variable in your JS.
 
