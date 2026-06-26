@@ -33,12 +33,12 @@ Reference jQuery and Quill on to your page.
 
 ### 2. SEEMS Reference
 Reference SEEMS on to your page. Ensure this is declared after jQuery and Quill.
-* [seems.css](css/seems.css)
+* [seems.min.css](css/seems.min.css)
 * [seems.min.js](js/seems.min.js)
 
 ```html
-<link href="css/seems.css" rel="stylesheet" />
-<script src="js/seems.js"></script>
+<link href="css/seems.min.css" rel="stylesheet" />
+<script src="js/seems.min.js"></script>
 ```
 
 <br />
