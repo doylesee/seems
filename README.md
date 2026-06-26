@@ -16,6 +16,10 @@ SEEMS bridges this gap. It provides a simple, structured UI abstraction layer th
 
 ## Usage
 
+![Video Demo Coming Soon](https://img.shields.io/badge/VIDEO_DEMO-COMING_SOON-D11A2A?style=for-the-badge&logoColor=white)<br />
+![Video Demo Coming Soon](https://img.shields.io/badge/VIDEO_DEMO-COMING_SOON-D11A2A?style=for-the-badge&logoColor=white)<br />
+![Video Demo Coming Soon](https://img.shields.io/badge/VIDEO_DEMO-COMING_SOON-D11A2A?style=for-the-badge&logoColor=white)<br />
+
 ### 1. Pre-requisites
 Reference jQuery and Quill on to your page.
 - <a href="https://jquery.com/download/" target="_blank">jQuery</a>
