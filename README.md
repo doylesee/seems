@@ -20,8 +20,11 @@ SEEMS bridges this gap. It provides a simple, structured UI abstraction layer th
 ![Video Demo Coming Soon](https://img.shields.io/badge/VIDEO_DEMO-COMING_SOON-D11A2A?style=for-the-badge&logoColor=white)<br />
 ![Video Demo Coming Soon](https://img.shields.io/badge/VIDEO_DEMO-COMING_SOON-D11A2A?style=for-the-badge&logoColor=white)<br />
 
-### 1. Pre-requisites
-Reference jQuery and Quill on to your page.
+### 1. Page Builder Workspace
+Build a web-based Page Builder Workspace.
+
+### 2. Pre-requisites
+Reference jQuery and Quill on to your Page Builder Workspace.
 - <a href="https://jquery.com/download/" target="_blank">jQuery</a>
 - <a href="https://quilljs.com/docs/installation" target="_blank">Quill</a>
 
@@ -35,8 +38,8 @@ Reference jQuery and Quill on to your page.
 
 <br />
 
-### 2. SEEMS Reference
-Reference SEEMS on to your page. Ensure this is declared after jQuery and Quill.
+### 3. SEEMS Reference
+Reference SEEMS on to your Page Builder Workspace. Ensure this is declared after jQuery and Quill.
 * [seems.min.css](css/seems.min.css)
 * [seems.min.js](js/seems.min.js)
 
@@ -47,7 +50,7 @@ Reference SEEMS on to your page. Ensure this is declared after jQuery and Quill.
 
 <br />
 
-### 3. Build your HTML Layouts via JS
+### 4. Build your HTML Layouts via JS
 Please ensure the following classes are correctly referenced in the HTML code:
 | Class Name | Description |
 | :--- | :--- |
@@ -103,6 +106,6 @@ const layouts = {
 
 <br />
 
-### 4. SEEMS UI
-Include the [SEEMS UI](seems-ui.html) code into your intended Page Builder page.<br />
+### 5. SEEMS UI
+Include the [SEEMS UI](seems-ui.html) code into your Page Builder Workspace.<br />
 Update the select options with values from the <code>layouts</code> variable in your JS.
