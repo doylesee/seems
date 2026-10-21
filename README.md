@@ -92,7 +92,9 @@ const LAYOUT_CONTENT_WITH_BACKGROUND = `
         </div>
     </div>
 </section>`;
+```
 
+```javascript
 // Create an object to map option values to the variables
 const layouts = {
     'layout-3-column-cta': {
