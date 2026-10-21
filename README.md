@@ -65,6 +65,15 @@ Ensure these JS variable scripts are declared before `seems.js`. Ideally, this i
 
 ```javascript
 // Layout constants
+const LAYOUT_CONTENT_WITH_BACKGROUND = `
+<section class="seems-page-section">
+    <div class="seems-image-container" style="background-image: url('../img/sample-image.jpg');">
+        <div class="seems-copy-container">
+            <p>In skateparka et vert, the grinda is afoot. Manuals and nosegrinds, ollies and kickflips—each trick is a lexicon of the concrete.</p>
+        </div>
+    </div>
+</section>`;
+
 const LAYOUT_3_COLUMN_CTA = `
 <section class="seems-page-section">
     <div class="seems-copy-container">
@@ -73,7 +82,6 @@ const LAYOUT_3_COLUMN_CTA = `
     <div class="seems-item-container">
     </div>
 </section>`;
-
 const LAYOUT_3_COLUMN_CTA_ITEMS = `
 <div class="seems-page-item">
     <a href="#" class="seems-url-container">
@@ -83,15 +91,6 @@ const LAYOUT_3_COLUMN_CTA_ITEMS = `
         </div>
     </a>
 </div>`;
-
-const LAYOUT_CONTENT_WITH_BACKGROUND = `
-<section class="seems-page-section">
-    <div class="seems-image-container" style="background-image: url('../img/sample-image.jpg');">
-        <div class="seems-copy-container">
-            <p>In skateparka et vert, the grinda is afoot. Manuals and nosegrinds, ollies and kickflips—each trick is a lexicon of the concrete.</p>
-        </div>
-    </div>
-</section>`;
 ```
 
 ```javascript
