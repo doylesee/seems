@@ -15,7 +15,7 @@ SEEMS bridges this gap. It provides a simple, structured UI abstraction layer th
 <br />
 
 ## Usage
-[![Watch the video](https://img.youtube.com/vi/TZkwq70LSLU/maxresdefault.jpg)](https://www.youtube.com/watch?v=TZkwq70LSLU)
+[![Watch the video](.readme-assets/seems-video-demo-play.png)](https://www.youtube.com/watch?v=TZkwq70LSLU)
 
 ### 1. Page Builder Workspace
 Build a web-based Page Builder Workspace.
